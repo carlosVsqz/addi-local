@@ -1,0 +1,14 @@
+###
+POST https://{{url}}/notification
+Content-Type: application/json
+
+{
+  "orderId": "test1",
+  "applicationId": "o957b4611-6ef7-4f1c-b9be-02207bd9fd80",
+  "approvedAmount": "150000.0",
+  "currency": "COP",
+  "status": "APPROVED",
+  "statusTimestamp": "1568398147"
+}
+###
+
