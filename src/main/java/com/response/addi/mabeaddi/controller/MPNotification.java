@@ -38,28 +38,3 @@ public class MPNotification extends AbstractControllerCm {
   }
 
 }
-
-class Response<T> {
-
-  private static Response<?> current = null;
-
-  private T item;
-
-  public Response() {
-    this.item = null;
-  }
-
-  public static Response getInstance() {
-    if (current == null)
-      current = new Response();
-    return current;
-  }
-
-  public T getItem() {
-    return item;
-  }
-
-  public void setItem(T item) {
-    this.item = item;
-  }
-}

@@ -1,5 +1,5 @@
 ###
-POST https://{{url}}/notification
+POST {{url}}/notification
 Content-Type: application/json
 
 {
@@ -12,3 +12,4 @@ Content-Type: application/json
 }
 ###
 
+GET {{url}}/notification/getAddiResponse
